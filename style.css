@@ -20,15 +20,16 @@ body {
 .header{
     display: flex;
     justify-content: space-between;
-    padding: 16px;
+    padding: 1rem;
 }
 .logo{
    color: #F9FAF8;
    font-size: 24px;
+   font-weight: bolder;
 }
 .right-links{
     display: flex;
-    gap:16px;
+    gap:1.5rem;
 
 }
 .right-links a{
@@ -46,6 +47,7 @@ ul {
     justify-content: center;
     flex-wrap: wrap;
     padding: 4rem;
+    padding-bottom: 8rem;
 }
 .left-stuff{
     display: flex;
@@ -53,11 +55,13 @@ ul {
     justify-content: left;
     flex: 25% 0 auto;
     width: 28rem;
+    padding: 2rem;
 }
 .right-stuff{
     flex: 0 0 1;
-    width: 28rem;
-    height: 16rem;
+    width: 32rem;
+    /* height: 16rem; */
+    margin: 2rem;
     background-color: rgb(95, 105, 110);
     text-align: center;
     
@@ -70,17 +74,18 @@ ul {
 }
 button{
     align-self: flex-start;
+    align-items: center;
+    justify-items:center;
     border: none;
     border-radius: 8px;
-    padding: 8px 16px;
+    margin-top: .5rem;
+    padding: .5rem 2.25rem .5rem 2.25rem;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: bold;
     color: #F9FAF8;
     background-color: #3883F6;
 }
-/* .left-stuff, .right-stuff{
-    display: flex;
-    justify-content: space-between;
-
-} */
 .header-title{
     color: #F9FAF8;
     font-size: 48px;
@@ -101,7 +106,7 @@ button{
     color:#1F2937;
     font-size: 36px;
     font-weight: bolder;
-    padding: 2rem;
+    padding: 2rem 1rem 0 0;
     margin: 1rem;
 }
 .section2-info-boxes{
@@ -119,15 +124,13 @@ button{
     flex-direction: column;
     flex-grow: 0;
     justify-self: center;
-
-    height:auto;
-    width:250px;
+    /* height:auto; */
+    width:14rem;
 }
 .image-wrapper p{
     display: flex;     
 }
 p{
-    
     justify-self: center;
     align-self: center;
 }
@@ -139,13 +142,15 @@ p img{
     height: 2rem;
     border-radius: 10%;
     text-align: center;  
-    justify-self: center;
+
 }
 .subtext{
     /* display: block; */
     text-align: center;
+    font-size: 18px;
     padding-top: 0;
-    padding-left: .25rem;
+    padding-left: 0;
+    width: 10.5rem;
     border-radius: 0;
     margin:0;
 }
