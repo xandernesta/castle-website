@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 body {
     /* display:flex; */
+    /* flex:1; */
     font-family: Roboto, sans-serif;
     align-items: center;
+    margin: 0;
 }
 
 .section1{
@@ -83,5 +85,46 @@ button{
 .header-paragraph{
     color:#E5E7EB;
     font-size: 18px;
+}
+
+
+.section2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+.section2-header{
+    color:#1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+    padding: 2rem;
+}
+.section2-info-boxes{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-items: center; */
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+}
+.image-wrapper{
+    display: block;
+    
+}
+p img{
+    padding: 2rem;
+    border: 2px solid #3882f6;
+    width: 100%;
+    height: auto;
+    border-radius: 10%;  
+}
+.subtext{
+    display: block;
+    padding-top: 2rem;
+    padding: 1rem;
+    border-radius: 0;
 }
 
