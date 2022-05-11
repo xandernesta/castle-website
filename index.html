@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin-Website-Template</title>
     <link rel="stylesheet" href="style.css">
-
 <style>
     /* Popup container - can be anything you want */
     .popup {
@@ -18,9 +17,32 @@
       -ms-user-select: none;
       user-select: none;
     }
+    .popup2 {
+      position: relative;
+      display: inline-block;
+      cursor: pointer;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
     
     /* The actual popup */
     .popup .popuptext {
+      visibility: hidden;
+      width: 160px;
+      background-color: #555;
+      color: #fff;
+      text-align: center;
+      border-radius: 6px;
+      padding: 8px 0;
+      position: absolute;
+      z-index: 1;
+      bottom: 125%;
+      left: 50%;
+      margin-left: -80px;
+    }
+    .popup2 .popuptext2 {
       visibility: hidden;
       width: 160px;
       background-color: #555;
@@ -46,9 +68,24 @@
       border-style: solid;
       border-color: #555 transparent transparent transparent;
     }
+    .popup2 .popuptext2::after {
+      content: "";
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      margin-left: -5px;
+      border-width: 5px;
+      border-style: solid;
+      border-color: #555 transparent transparent transparent;
+    }
     
     /* Toggle this class - hide and show the popup */
     .popup .show {
+      visibility: visible;
+      -webkit-animation: fadeIn 1s;
+      animation: fadeIn 1s;
+    }
+    .popup2 .show {
       visibility: visible;
       -webkit-animation: fadeIn 1s;
       animation: fadeIn 1s;
@@ -132,17 +169,25 @@
                 <div class="cta-title">Call to action! It's time!</div>
                 <div class="cta-text">Sign up for our product by clicking that button right over there!</div>
             </div>
-            <div id="button2" class="popup" onclick="myFunction()">Sign Up
-                <span class="popuptext" id="myPopup">Sorry this is a practice project, I don't have a newletter</span>
+            <div id="button2" class="popup2" onclick="myFunction2()">Sign Up
+                <span class="popuptext2" id="myPopup2">Sorry this is a practice project, I don't have a newletter</span>
             </div>
-            
         </div>
     </div>
-    <div class="footer"></div>
+    <div class="footer">
+        
+    </div>
     <script>
         // When the user clicks on div, open the popup
         function myFunction() {
           var popup = document.getElementById("myPopup");
+          popup.classList.toggle("show");
+        }
+    </script>
+    <script>
+        // When the user clicks on div, open the popup
+        function myFunction2() {
+          var popup = document.getElementById("myPopup2");
           popup.classList.toggle("show");
         }
     </script>
