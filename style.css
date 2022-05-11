@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
 body {
     /* display:flex; */
     /* flex:1; */
@@ -101,6 +102,7 @@ button{
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 32rem;
 }
 .section2-header{
     color:#1F2937;
@@ -155,4 +157,33 @@ p img{
     margin:0;
 }
 
+.section3{
+    background-color: #E5E7EB ;
+    height: 24rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.quote{
+    font-family: 'Roboto', sans-serif ;
+    font-size: 36px;
+    font-weight:lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+.quoter{
+    display: flex;
+    color: #1F2937;
+    font-family: 'Segoe UI';
+    font-size: 24px;
+    font-weight:bold;
+    align-self: flex-end;
+    justify-self: flex-end;
+}
+
+.quote-container{
+    display: flex;
+    flex-direction: column;
+    padding: 20rem;
+}
 
