@@ -1,3 +1,4 @@
-# Odin CSS Project - Website Template
+# Odin CSS/Flex Project - ~~Website Template~~ Castle Website
 
-Decided to make my project as more of a template like the example, this way I can fork this and reuse for other such websites if I need.
+~~Decided to make my project as more of a template like the example, this way I can fork this and reuse for other such websites if I need.~~
+This will be a Castle Website based off of the template I made for the Odin CSS/Flex lesson Project
