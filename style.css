@@ -204,7 +204,6 @@ p img{
     margin:4rem;
     padding: 1rem;
 }
-
 /* Popup container - can be anything you want */
 #button2 {
     color:#F9FAF8;
@@ -224,4 +223,20 @@ p img{
 .cta-title{
     font-size: 24px;
     font-weight: bolder;
+}
+.cta-text{
+    font-size: 18px;
+}
+.footer-container{
+    display: flex;
+    background-color: #1F2937;
+    height:8rem;
+    justify-content: center;
+}
+.footer-text{
+    flex:0 0 1;
+    color: #F9FAF8;
+    justify-self: right;
+    align-self: center;
+    font-size: 18px;
 }
