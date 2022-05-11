@@ -170,8 +170,9 @@ p img{
 .subtext{
     /* display: block; */
     flex:1;
+    justify-content: center;
     text-align: center;
-    font-size: 18px;
+    font-size: 20px;
     padding-top: 0;
     padding-left: 0;
     width: 10.5rem;
