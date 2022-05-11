@@ -73,7 +73,7 @@ ul {
 .header-paragraph{
     flex-wrap: wrap;
 }
-button{
+#button1{
     align-self: flex-start;
     align-items: center;
     justify-items:center;
@@ -85,7 +85,7 @@ button{
     font-size: 18px;
     font-weight: bold;
     color: #F9FAF8;
-    background-color: #3883F6;
+    background-color: #3882F6;
 }
 .header-title{
     color: #F9FAF8;
@@ -187,3 +187,80 @@ p img{
     padding: 20rem;
 }
 
+.section4{
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+.cta-container{
+    display:flex;
+    /* flex: 1 0 1; */
+    justify-content: space-around;
+    align-content: space-around;
+    justify-items: center;
+    align-items: center;
+    background-color:#3882f6;
+    border: 0;
+    border-radius: 8px;
+    width:75rem;
+    height: 8rem;
+    margin:4rem;
+    padding: 1rem;
+}
+.cta-text-box{
+    /* flex: 1 0 1; */
+}
+/* Popup container - can be anything you want */
+#button2.popup {
+
+    color:#F9FAF8;
+    align-self: center;
+    align-items: center;
+    justify-items:center;
+    padding: .5rem 2.25rem .5rem 2.25rem;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: bold;
+    border: 4px solid #F9FAF8; 
+    border-radius: 4px;
+}
+  /* The actual popup
+  .popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+  }
+  /* Popup arrow */
+  /* .popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent; 
+  }*/
+  /* Toggle this class - hide and show the popup *//*
+  .popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+  } */
+.cta-title, .cta-text{
+    color:#F9FAF8;
+}
+.cta-title{
+    font-size: 24px;
+    font-weight: bolder;
+}
