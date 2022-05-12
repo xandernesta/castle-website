@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
 body {
-    /* display:flex; */
-    /* flex:1; */
     font-family: Roboto, sans-serif;
     align-self: center;
     margin: 0;
@@ -13,7 +11,8 @@ body {
 .section1{
     color: #E5E7EB;
     background-image: url('./resources/background.jpg');
-    /* background-color: #1F2937; */
+    /* background color not need since we added a picture
+     background-color: #1F2937; */
     margin: 0;
     height:32rem;
 
@@ -27,17 +26,8 @@ body {
 .logo{
     display: flex;
     flex-direction: column;;
-    /* align-items: center; */
-    /* align-content: space-around; */
 }
-.icon .home{
-    /* justify-content: flex-start;
-    align-self: center; */
-   }
-/* .logo a{
-    display: inline;
-    align-self: center;
-}  */
+
 .home{
     color: #E5E7EB;
     font-size: 18px;
@@ -69,10 +59,8 @@ ul {
     text-overflow: ellipsis;
     width: 70rem;
     height: 20rem;
-    /* margin: 3rem 12.5rem 3rem 12.5rem; */
     margin:2rem auto;
     padding: 1rem 0 1rem 0;
-    /* padding-bottom: 4rem; */
     background-color: rgba(0, 0, 0, 0.7);
     box-shadow: 0 0 2em rgb(69, 69, 69);
     border-radius: 4px;
@@ -92,8 +80,8 @@ ul {
     margin: 1rem .5rem;
     padding: 0;
     border-radius: 8px;
-    /* background color not need since we added a picture */
-    /* background-color: rgb(95, 105, 110); */
+    /* background color not need since we added a picture 
+    background-color: rgb(95, 105, 110); */
     text-align: center;
     align-self: center;
 }
@@ -160,7 +148,6 @@ img.round-corner{
     flex-direction: column;
     flex-grow: 0;
     justify-self: center;
-    /* height:auto; */
     width:14rem;
 }
 .image-wrapper p{
@@ -168,24 +155,17 @@ img.round-corner{
 }
 p{
     flex:1;
-    /* width: 2rem;
-    height: 2rem; */
     justify-self: center;
     align-self: center;
 }
 p img{
-    /* padding: 4rem; */
-    
     margin: 0;
     border: 4px solid #3882f6;
-    /* width: 10.5rem;
-    height: 2rem; */
     border-radius: 10%;
     text-align: center;  
 
 }
 .subtext{
-    /* display: block; */
     flex:1;
     justify-content: center;
     text-align: center;
@@ -227,8 +207,6 @@ p img{
     display: flex;
     flex-direction: column;
     padding: 20rem;
-    /* overflow:hidden;
-    text-overflow: ellipsis; */
 }
 
 .section4{
